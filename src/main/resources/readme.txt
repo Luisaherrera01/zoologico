@@ -10,15 +10,15 @@ Se crean dos objetos: animal1 y  animal2
 
 - ¿Cuántos y cuáles son los atributos de la clase Animal?
 tiene 4 atributos:
-Animal nombre;
-Animal genero;
+String nombre;
+String genero;
 double peso=1;
 Animal pareja;
 
 - ¿Cuáles atributos de la clase Animal no son primitivos?
 String nombre;
 String genero;
-String pareja;
+Animal pareja;
 
 
 - ¿Qué pasa si eliminamos la línea 17 de la clase Zoologico?
