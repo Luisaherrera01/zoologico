@@ -2,23 +2,25 @@ package org.example;
 
 public class Animal {
 
-    public String nombre;
-    public String genero;
-    public double peso;
-    public Animal pareja;
+    //ATRIBUTOS
+    private String nombre;
+    private String genero;
+    private double peso;
+    private Animal pareja;
 
-    public Animal() {
-    }
-
+    //CONSTRUCTORES
+    public Animal() {}
     public Animal(String nombre, double peso) {
         this.nombre = nombre;
         this.peso = peso;
     }
 
+    //METODOS
     void encontrarPareja(Animal pareja){
         this.pareja=pareja;
     }
 
+    //SETTER AND GETTER
     public String getNombre() {
         return nombre;
     }
